@@ -481,3 +481,96 @@ body{
 .news-img{
      width: 50%;
 }
+
+/* News Letter Section */
+.newsletter-container{
+     background-color: var(--background-color);
+     max-width: 1280px;
+     height: 48.985vh;
+     margin: 0 auto;
+     padding: 2rem;
+}
+
+.newslatter-content{
+     display: flex;
+     flex-direction: row;
+     background-color: var(--light-gray);
+     height: 100%;
+     border-radius: 8px;
+     overflow: hidden;
+}
+
+.left-container{
+     width: 50%;
+     height: 100%;
+}
+
+.news-image{
+     width: 100%;
+     height: 100%;
+}
+
+.right-container{
+     width: 50%;
+     height: 100%;
+     padding: 0.5rem;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: flex-start;
+     gap: 1rem;
+}
+
+.news-info{
+     padding: 0 4rem;
+}
+
+.news-title{
+     font-size: 2.5rem;
+     color: var(--primary-color);
+}
+
+.news-desc{
+     color: var(--gray);
+     text-align: left;
+}
+
+.news-form{
+     padding: 0 4rem;
+     margin-bottom: 1rem;
+}
+
+.news-email{
+     padding: 0.5rem 0.75rem;
+     border-radius: 0.250rem;
+     border: 1px solid rgb(204, 204, 204);
+     outline: none;
+}
+
+.news-email:focus{
+     border-color: var(--primary-color);
+     box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+
+.news-send-button{
+     padding: 0.5rem 0.75rem;
+     border-radius: 0.250rem;
+     background-color: var(--primary-color);
+     border: hidden;
+     color: white;
+}
+
+.news-send-button:hover{
+     background-color: var(--link-color);
+}
+
+.policy{
+     padding: 0 4rem;
+     font-size: 0.72rem;
+     color: var(--gray);
+}
+
+.news-link{
+     color: var(--primary-color);
+     text-decoration: underline;
+}
